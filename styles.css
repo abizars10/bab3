@@ -1,27 +1,28 @@
+body {
+  /* Background Halaman Body */
+  background-color: #ecf0f1;
+}
 .wrapper {
 }
 .container {
-  width: 1200px;
+  width: 1000px;
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
-  /* Background Content */
   background-color: #bdc3c7;
 }
 .sidebar {
   width: 400px;
+
   float: left;
 }
 .content {
-  width: 800px;
+  width: 600px;
+
   float: right;
 }
 .clear {
   clear: both;
-}
-body {
-  /* Background Halaman Web */
-  background-color: #ecf0f1;
 }
 #logo {
   float: left;
@@ -37,7 +38,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   float: right;
-  width: 960px;
+  width: 750px;
 }
 #menu li {
   float: left;
@@ -47,22 +48,31 @@ body {
 }
 #menu li a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #34495e;
+  color: #344950;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
 }
-.blog-content {
+.blog-content,
+.blog-single {
   float: left;
-  max-width: 380px;
-  margin-left: 10px;
+  max-width: 200px;
   margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 20px;
 }
 .blog-content img {
-  width: 100%;
-  height: 180px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
+}
+.blog-single img {
+  width: 560px;
+  height: 250px;
+  object-fit: cover;
+}
+.text-box1 {
+  width: 560px;
 }
 .recent-article {
   padding-left: 10px;
